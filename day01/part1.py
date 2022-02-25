@@ -1,7 +1,7 @@
 from util import file_util
 
-def day01_part1():
-    lines = file_util.read_file_lines("day01/input.txt")
+def day01_part1(sampleInput = False):
+    lines = file_util.read_file_lines(f"day01/input{'Sample' if sampleInput else ''}.txt")
 
     lineNum = 0
     count = 0
